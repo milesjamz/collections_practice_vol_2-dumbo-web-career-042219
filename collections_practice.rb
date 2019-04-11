@@ -1,11 +1,7 @@
 # your code goes here
 def begins_with_r(arguments)
 arguments.all? do |word|
-  word.downcase.chr("r")
- return TRUE
-else
-return FALSE
-end
+  word.downcase.chr == "r"
 end
 end
 
