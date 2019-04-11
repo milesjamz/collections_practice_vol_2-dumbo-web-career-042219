@@ -36,7 +36,7 @@ end
 end
 
 def find_cool(arguments)
-array.select {|entry| entry if entry.has_value?("cool")}
+arguments.select {|entry| entry if entry.has_value?("cool")}
 end
 
 def organize_schools
