@@ -2,10 +2,9 @@
 def begins_with_r(arguments)
 arguments.each do |word|
   if word.start_with?("r")
-  return TRUE
+ TRUE
 else
-  return FALSE
-end
+ FALSE
 end
 end
 
