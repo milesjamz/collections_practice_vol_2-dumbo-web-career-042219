@@ -9,8 +9,8 @@ end
 end
 end
 
-def contain_a(array)
- 	array.find_all {|word| word.include?("a")}
+def contain_a(arguments)
+ 	arguments.find_all {|word| word.include?("a")}
 end
 
 def first_wa
