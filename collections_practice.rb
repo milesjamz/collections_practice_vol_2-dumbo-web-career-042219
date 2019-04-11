@@ -38,7 +38,6 @@ value.each do |hash|
   end
 end
 end
-end
 
 def find_cool(arguments)
 array.select {|entry| entry if entry.has_value?("cool")}
