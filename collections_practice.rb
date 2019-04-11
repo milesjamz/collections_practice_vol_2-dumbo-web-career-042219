@@ -9,6 +9,9 @@ end
 end
 end
 
+def contain_a(array)
+ 	array.find_all {|word| word.include?("a")}
+end
 
 end
 end
