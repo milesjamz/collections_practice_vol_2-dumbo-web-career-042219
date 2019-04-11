@@ -10,7 +10,7 @@ end
 end
 
 def contain_a(arguments)
-arguments.find_all
+arguments.find_all {|word| word.include?
 end
 end
 
