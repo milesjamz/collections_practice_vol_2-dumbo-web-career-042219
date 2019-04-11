@@ -28,6 +28,7 @@ def count_elements(arguments)
 end
 end
 end
+end
 
 def merge_data
 end
