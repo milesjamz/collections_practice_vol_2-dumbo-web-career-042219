@@ -22,10 +22,12 @@ def remove_non_strings(arguments)
 end
 
 def count_elements(arguments)
-  nuHash = {}
-  arguments.count {|name| name<0}
-  name << nuHash
-  nuHash
+ counts = Hash.new(0)
+  arguments.collect {|element| counts[element]+=1 }
+    counts.collect do |hash, number|
+      hash[:count] = number
+    end
+  counts.keys
 end
 
 
