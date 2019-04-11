@@ -22,7 +22,6 @@ end
 
 def count_elements(arguments)
   arguments.count {|name| name<0}
-  
 end
 
 def merge_data
