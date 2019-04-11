@@ -10,7 +10,7 @@ end
 end
 
 def contain_a(arguments)
-arguments.findall
+arguments.find_all
 end
 end
 
