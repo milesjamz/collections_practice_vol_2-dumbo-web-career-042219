@@ -20,7 +20,8 @@ end
 def remove_non_strings
 end
 
-def count_elements
+def count_elements(arguments)
+
 end
 
 def merge_data
