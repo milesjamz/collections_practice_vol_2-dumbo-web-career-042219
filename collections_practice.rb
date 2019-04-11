@@ -13,8 +13,8 @@ def contain_a(arguments)
  	arguments.find_all {|word| word.include?("a")}
 end
 
-def first_wa(array)
-  array.find {|prefix| prefix.start_with?("wa")}
+def first_wa(arguments)
+  arguments.find {|word| word.to_s.start_with?("wa")}
 end
 
 def remove_non_strings
