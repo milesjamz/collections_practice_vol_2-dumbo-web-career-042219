@@ -1,6 +1,5 @@
 # your code goes here
 def begins_with_r(arguments)
-arguments.each do |word|
   if word.start_with?("r")
  TRUE
 else
