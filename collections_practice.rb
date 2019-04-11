@@ -14,7 +14,7 @@ def contain_a(arguments)
 end
 
 def first_wa(array)
-  array.find {|prefix| prefix.include?("wa")}
+  array.find {|prefix| prefix.start_with?("wa")}
 end
 
 def remove_non_strings
