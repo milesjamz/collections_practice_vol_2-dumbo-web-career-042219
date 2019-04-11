@@ -21,7 +21,11 @@ def remove_non_strings
 end
 
 def count_elements(arguments)
+  nuHash = {}
   arguments.count {|name| name<0}
+  name << nuHash
+  nuHash
+end
 end
 
 def merge_data
