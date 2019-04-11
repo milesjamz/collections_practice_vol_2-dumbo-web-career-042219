@@ -1,9 +1,9 @@
 # your code goes here
 def begins_with_r(arguments)
   if arguments.start_with?("r")
- TRUE
+ return TRUE
 else
- FALSE
+return FALSE
 end
 end
 
