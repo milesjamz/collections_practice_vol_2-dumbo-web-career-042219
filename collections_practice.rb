@@ -26,9 +26,7 @@ def count_elements(arguments)
   name << nuHash
   nuHash
 end
-end
-end
-end
+
 
 def merge_data
 end
