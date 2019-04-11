@@ -1,7 +1,7 @@
 # your code goes here
 def begins_with_r(arguments)
 arguments.all? do |word|
-  if word.start_with?("r")
+  word.downcase.chr("r")
  return TRUE
 else
 return FALSE
