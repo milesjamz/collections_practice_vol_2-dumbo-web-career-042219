@@ -13,7 +13,7 @@ def contain_a(arguments)
  	arguments.find_all {|word| word.include?("a")}
 end
 
-def first_wa
+def first_wa(arguments)
 end
 
 def remove_non_strings
