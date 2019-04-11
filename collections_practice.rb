@@ -40,7 +40,8 @@ end
 end
 end
 
-def find_cool
+def find_cool(arguments)
+array.select {|entry| entry if entry.has_value?("cool")}
 end
 
 def organize_schools
