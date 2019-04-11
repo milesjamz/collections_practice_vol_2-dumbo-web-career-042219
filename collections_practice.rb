@@ -7,6 +7,7 @@ else
  FALSE
 end
 end
+end
 
 def contain_a(arguments)
 arguments.each do |word|
