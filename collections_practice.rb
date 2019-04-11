@@ -10,7 +10,8 @@ end
 end
 
 def contain_a(arguments)
-arguments.find_all {|word| word.include?
+arguments.find_all {|word| word.include?("a")}
+return word
 end
 end
 
