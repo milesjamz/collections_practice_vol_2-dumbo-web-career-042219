@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r(arguments)
-arguements.each do |word|
+arguments.each do |word|
   if word.start_with?("r")
  return TRUE
 else
