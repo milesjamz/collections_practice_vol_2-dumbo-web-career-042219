@@ -1,10 +1,9 @@
 # your code goes here
 def begins_with_r(arguments)
-  if word.start_with?("r")
+  if arguments.start_with?("r")
  TRUE
 else
  FALSE
-end
 end
 end
 
