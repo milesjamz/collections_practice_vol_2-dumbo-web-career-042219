@@ -10,9 +10,7 @@ end
 end
 
 def contain_a(arguments)
-arguments.each do |word|
-newArray << word.include("a")
-return newArray
+arguments.findall
 end
 end
 
